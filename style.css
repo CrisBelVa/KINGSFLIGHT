@@ -1302,3 +1302,30 @@ ul {
     font-size: 1.6rem;
   }
 }
+
+/* ---- SVG ICONS ---- */
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.service-icon .icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.trust-icon .icon {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.hero-badge .icon {
+  width: 14px;
+  height: 14px;
+}
+
+.btn .icon {
+  width: 18px;
+  height: 18px;
+}
