@@ -551,6 +551,10 @@ ul {
   border-color: rgba(201, 168, 76, 0.25);
 }
 
+.featured-service .service-icon .icon {
+  color: var(--white);
+}
+
 .featured-service h3 {
   color: var(--white);
 }
@@ -901,6 +905,9 @@ ul {
   object-fit: contain;
   margin-bottom: 20px;
   filter: drop-shadow(0 4px 12px rgba(201, 168, 76, 0.3));
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .values-card-big h3 {
